@@ -9,6 +9,12 @@
 * CLEAR runs totally on a client side. It does not use a backend server at all.
 * CLEAR does not store any images nor build search indices, while traditional search systems require to build search indices.
 
+## 📜 Paper
+
+The paper describes CLEAR in detail.
+
+arXiv: https://arxiv.org/abs/2206.08521
+
 ## 💻 Online Demo
 
 https://clear.joisino.net/
@@ -50,3 +56,15 @@ The feature extractor and score function are defined in `src/score.js`.
 As CLEAR does not rely on any backend servers or search indices, you can seamlessly use the system after you change the score function.
 
 You can also change the search target from Flickr to other services by writing a wrapper in `src/flickr.js`.
+
+## 🖋️ Citation
+
+```
+@inproceedings{sato2022clear,
+  author    = {Ryoma Sato},
+  title     = {CLEAR: A Fully User-side Image Search System},
+  booktitle = {The 31st {ACM} International Conference on Information
+               and Knowledge Management, {CIKM}},
+  year      = {2022},
+}
+```
